@@ -110,23 +110,33 @@
     float: left;
     width: 33.3333%;
     padding: 0 8px;
-    text-align: center;
+    
 }
 
 .col33 ul{
     list-style-type: none;
     padding: 0;
     margin: 0;
+    text-align: center;
+    border: 1px solid #ccc;
 }
 .col33 li{
-    padding:16px;border:1px solid #ccc;
+    padding:16px 0;
+    border-bottom:1px solid #ddd;
 }
-.col33:hover{
+.firstli{
+    background-color: black;
+    color:white;
+    padding:32px 16px !important;
+    font-size:24px;
+}
+
+ul:hover{
     box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)
 }
 .col33 button{
     border: none;
-    background-color: green;
+    background-color: #4caf50;
     color: white;
     padding: 12px 24px;
 }
